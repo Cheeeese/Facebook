@@ -15,6 +15,6 @@ Completed user stories:
 
 # HW4CodePathTumblr
 
-![Video Walkthrough](HW4_withFirstOptional.gif)
+![Video Walkthrough](HW5_withFirstOptional.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
