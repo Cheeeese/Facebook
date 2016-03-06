@@ -62,6 +62,7 @@ class PhotoZoomTransition: BaseTransition {
 
         
         photoViewController.photoImage.alpha = 0
+        newsFeedViewController.selectedImageView.alpha = 0
         fromViewController.view.alpha = 1
         
         
@@ -73,10 +74,9 @@ class PhotoZoomTransition: BaseTransition {
             zoomImageView.clipsToBounds = newsFeedViewController.selectedImageView.clipsToBounds
 
             
-
-            
             }) { (finished: Bool) -> Void in
-                
+
+                newsFeedViewController.selectedImageView.alpha = 1
                 zoomImageView.removeFromSuperview()
                 self.finish()
         }
