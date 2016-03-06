@@ -14,13 +14,21 @@ class NewsFeedViewController: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var feedImageView: UIImageView!
+    @IBOutlet weak var firstImage: UIImageView!
+    @IBOutlet var containerView: UIView!
     
     var selectedImageView: UIImageView!
-    
+
+    var window: UIWindow!
+    var zoomImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+
+        window = UIApplication.sharedApplication().keyWindow
+
         photoZoomTransition = PhotoZoomTransition()
 
         // Configure the content size of the scroll view
@@ -44,15 +52,21 @@ class NewsFeedViewController: UIViewController {
     
     @IBAction func onTapGesturePhoto(sender: UITapGestureRecognizer) {
 
+        // Get the image that was tapped on
         selectedImageView = sender.view as! UIImageView
-        
-        performSegueWithIdentifier("expandPhotoSegue", sender: self)
+        self.performSegueWithIdentifier("expandPhotoSegue", sender: self)
         
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    @IBAction func onTestButtonTap(sender: AnyObject) {
         
 
+        
+        
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         let destinationViewController = segue.destinationViewController as! PhotoViewController
         
@@ -61,6 +75,8 @@ class NewsFeedViewController: UIViewController {
         
         destinationViewController.modalPresentationStyle = UIModalPresentationStyle.Custom
         destinationViewController.transitioningDelegate = photoZoomTransition
+        
+        
         
 
     }
