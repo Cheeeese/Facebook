@@ -24,6 +24,7 @@
 		44EFC1521C8BBA68005B4518 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC1511C8BBA68005B4518 /* BaseTransition.swift */; };
 		44EFC1541C8BBA71005B4518 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC1531C8BBA71005B4518 /* FadeTransition.swift */; };
 		44EFC1561C8BBB1D005B4518 /* PhotoZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC1551C8BBB1D005B4518 /* PhotoZoomTransition.swift */; };
+		44EFC1581C8C0DB0005B4518 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC1571C8C0DB0005B4518 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		44EFC1511C8BBA68005B4518 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
 		44EFC1531C8BBA71005B4518 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 		44EFC1551C8BBB1D005B4518 /* PhotoZoomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoZoomTransition.swift; sourceTree = "<group>"; };
+		44EFC1571C8C0DB0005B4518 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				42167674198EAAC6008CCBC3 /* View Controllers */,
 				42167655198E3220008CCBC3 /* AppDelegate.swift */,
 				42167659198E3220008CCBC3 /* Main.storyboard */,
+				44EFC1571C8C0DB0005B4518 /* Common.swift */,
 				44EFC1551C8BBB1D005B4518 /* PhotoZoomTransition.swift */,
 				44EFC1531C8BBA71005B4518 /* FadeTransition.swift */,
 				44EFC1511C8BBA68005B4518 /* BaseTransition.swift */,
@@ -267,6 +270,7 @@
 				42167673198EAABC008CCBC3 /* SettingsViewController.swift in Sources */,
 				4216767A198ECE88008CCBC3 /* NewsFeedViewController.swift in Sources */,
 				44EFC1541C8BBA71005B4518 /* FadeTransition.swift in Sources */,
+				44EFC1581C8C0DB0005B4518 /* Common.swift in Sources */,
 				44825A631C8BB1C900836493 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

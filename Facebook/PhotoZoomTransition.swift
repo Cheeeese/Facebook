@@ -61,6 +61,7 @@ class PhotoZoomTransition: BaseTransition {
         containerView.addSubview(zoomImageView)
 
         
+        photoViewController.photoImage.alpha = 0
         fromViewController.view.alpha = 1
         
         

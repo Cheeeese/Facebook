@@ -126,7 +126,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cV4-C3-HM8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="2" id="cV4-C3-HM8">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -155,6 +155,9 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="contentView" destination="7hD-FJ-AeH" id="Wq4-kY-xhs"/>
+                        <outlet property="doneButtonImage" destination="GhO-8m-6SZ" id="g8v-KN-8Cp"/>
+                        <outlet property="photoActionsImage" destination="yqP-Iv-Jop" id="d0R-kU-nS5"/>
                         <outlet property="photoImage" destination="0Tw-cs-Yas" id="cPs-BT-RZI"/>
                         <outlet property="scrollView" destination="cV4-C3-HM8" id="hVd-zA-x7P"/>
                     </connections>
@@ -273,7 +276,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3xk-Jp-nwy">
                                 <rect key="frame" x="247" y="72" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="onTestButtonTap:" destination="hBK-bb-7vk" eventType="touchUpInside" id="9ww-ZI-wKh"/>
                                 </connections>
