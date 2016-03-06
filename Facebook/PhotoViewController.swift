@@ -17,6 +17,7 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var photoActionsImage: UIImageView!
     @IBOutlet var contentView: UIView!
     
+    var photoImages: [UIImageView]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
