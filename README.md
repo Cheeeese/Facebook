@@ -1,5 +1,5 @@
 # Facebook
-Homework 4 CodePath: Photo Transitions from Facebook Projects
+Homework 5 CodePath: Photo Transitions from Facebook Projects
 
 This is an iOS demo that creates an example app using Swift to create animations and gestures based on an example app (Tumblr).  I utilized the example step by step Tutorials in the [CodePath Week 5 Project Folder] (http://courses.codepath.com/courses/ios_for_designers/unit/5#!assignment) to create this app.  
 
